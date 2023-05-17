@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(120, 177, 120);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+header{
+    border-bottom: 1px dashed rgb(109, 109, 26);
+}
+
+.box{
+
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    margin: 40px auto ;
+        
+}
+
+.heading{
+
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.heading h1 a{
+    color: rgb(44, 44, 3);
+    text-decoration: none;
+    
+    
+}
+.heading h1 :hover{
+    color:rgba(212, 235, 10, 0.89);
+}
+
+.heading h3{
+    height: 40px;
+    color:rgb (44, 44, 3) ;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.mybtn{
+    display: flex;
+    flex-direction: row;
+ justify-content: flex-end;
+ 
+
+    
+}
+
+
+
+
+
+
+.mybtn a{
+    border: 4px solid rgb(75, 75, 7);
+    background-color: rgb(75, 75, 7);  
+    text-decoration: none;  
+    color: black;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 4px;
+    margin: 2px;
+    margin-bottom: 0;
+    
+    
+    
+}
+
+.mybtn a:hover{
+    background-color: rgba(212, 235, 10, 0.89);
+
+}
+
+img{
+    height: 100px;
+    width:  100 px;
+    margin: 20px;
+    padding: 14px;
+
+}
+
+
+.title p{
+
+    
+    color: rgb(56, 56, 5);
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 100px;
+    justify-content: center;
+}

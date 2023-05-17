@@ -1,0 +1,96 @@
+body{
+
+    background-color:rgb(224, 198, 167);
+}
+b
+h1, h2, h3 ,h4, h5, h6, p{
+    margin: 0;
+}
+
+header{
+    border-bottom: 1px dashed rgb(112, 39,16,.938 );
+}
+
+.box{
+
+    height: 600px;
+    width: 860px;
+    background-color: lightyellow;
+    margin: 40px auto;
+}
+
+.heading{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.heading h1 a{
+   color: rgb(80, 62, 23); 
+    text-decoration:none;
+
+}
+
+.heading h1 :hover{
+    color: rgb(235, 160, 22);
+}
+
+.heading h4{
+    height: 40px;
+   color: rgba(112, 39, 16, 0.938); 
+   font-weight: 100;
+   font: size 12px; ;
+}
+
+
+
+.mybtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+.mybtn a{
+    border: 5px rgba(112, 38, 16, 0.548);
+    background-color: rgba(112, 38, 16, 0.548);
+    text-decoration: none;
+    color: black;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 4px;
+    margin: 2px;
+    margin-bottom: 0;
+}
+
+
+.mybtn a:hover{
+    background-color: rgba(255, 166, 0, 0.507);
+}
+
+
+
+img{
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding: 4px;
+}
+
+.info p{
+    color: rgb(18, 36, 11);
+    font-size: 18px;
+    font-style:italic ;
+    padding-left: 100px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
